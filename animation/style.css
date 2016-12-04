@@ -1,0 +1,23 @@
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+  }
+@keyframes slidein {
+    0% {
+    margin-left: 100%;
+    width: 100%;
+    background: orange;
+  }
+    50% {
+      margin-left: 110%;
+      width: 100%;
+      background: blue;
+    }
+
+    100% {
+    margin-left: 50%;
+    width: 30%;
+    background: red
+    }
+}

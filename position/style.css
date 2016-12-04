@@ -1,0 +1,27 @@
+*{
+  transition: all 1s;
+}
+body {
+  margin: 0;
+}
+div {
+  height: 100px;
+  opacity: 0,4;
+  margin: 0;
+  padding: 0;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue
+}
+.purple {
+  background: purple;
+}
+.absolute {
+  width: 100;
+  position: relative;
+  top: 50;
+  left: 0;
+}
