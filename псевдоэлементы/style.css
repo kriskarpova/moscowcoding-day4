@@ -1,13 +1,15 @@
-a {
+ul li {
+  margin-bottom: 5px;
+}
+.link-with-red-square {
   position: relative;
-  padding-left: 33px;
+  padding-left: 15px;
 }
 a:before {
   content: "";
   position: absolute;
   left: 0;
-  background: url(envelope.svg) center center no-repeat;
-  background-size: contain;
-  height: 16px;
-  width: 33px;
+  background: red;
+  height: 10px;
+  width: 10px;
 }
