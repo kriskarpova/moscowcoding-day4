@@ -1,0 +1,21 @@
+body {
+  font-size: 20px;
+}
+ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.bounce {
+  display: inline-block;
+  animation: bounce 3s;
+  animation-duration: alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: rotateY(0px);
+  }
+}
